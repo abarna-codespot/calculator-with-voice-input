@@ -110,6 +110,12 @@ body{
 .number, .operator{
 	cursor: pointer;
 }
+
+.number:hover, .operator:hover{
+
+	background-color: #999999;
+	transition: background-color 1s ease-in-out;
+}
 .operator:active, .number:active{
 	font-size: 13px;
 }
